@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259f3fe84dc6c6f44a0ec9adda7fac3b, type: 3}
+  m_Name: Turret1
+  m_EditorClassIdentifier: 
+  _name: Turret
+  cost: 25
+  description: <color=blue>Turret </color>
+  prefab: {fileID: 3985994311767176137, guid: 0cc71f47d8c29714a862136a3529e3da, type: 3}
+  damage: 5
+  fireSpeed: 1
+  bulletPrefab: {fileID: 4516493608477204263, guid: 46455010fb197ad4a8e5f758efdffef8,
+    type: 3}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  gameData: {fileID: 11400000, guid: c1ce2d92b876b514d9c87c838b17c219, type: 2}

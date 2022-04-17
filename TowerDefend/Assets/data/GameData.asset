@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f582241c80936604f8039fcc4b31e3f3, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  gold: 630
+  nightNumber: 5
+  dayTimeLength: 5
+  daySky: {fileID: 2100000, guid: 4c5c237aeafccb04c96a78c4efe76680, type: 2}
+  nightSky: {fileID: 2100000, guid: 9e83264da2c75be42b9b1eae13ed19ec, type: 2}
+  highlight: {fileID: 2100000, guid: 5eb932ddc6583d0439c7a7e30917fbdf, type: 2}
+  reguler: {fileID: 2100000, guid: ffb2639ee2ed3e244b17fcd75cac6984, type: 2}
+  buildableLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  towerLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  not_buildable_layer:
+    serializedVersion: 2
+    m_Bits: 256
+  towerToBuild: {fileID: 0}
+  health: 10
+  isNight: 0
+  isPlaying: 1
